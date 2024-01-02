@@ -11,6 +11,7 @@ function addTask() {
     newTask.textContent = taskInput.value;
 
     let deleteButton = document.createElement("button");
+    deleteButton.className = 'delete-button';
     deleteButton.textContent = "Delete";
     deleteButton.onclick = function() {
         tasksList.removeChild(newTask);

@@ -3,6 +3,9 @@ body {
     text-align: center;
 }
 
+.delete-button{
+    margin-left: 10px;
+}
 #todo-app {
     width: 300px;
     margin: 0 auto;
@@ -11,7 +14,7 @@ body {
 
 #tasks {
     list-style-type: none;
-    padding: 0;
+    padding: 5px;
 }
 
 #tasks li {
