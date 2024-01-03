@@ -22,3 +22,11 @@ function addTask() {
 
     taskInput.value = "";
 }
+
+document.getElementById("new-task").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        addTask();
+    }
+});
+
+document.getElementById("add-task-btn").addEventListener("click", addTask);
